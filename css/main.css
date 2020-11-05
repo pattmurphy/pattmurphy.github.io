@@ -1,0 +1,106 @@
+/*      Colours
+
+    Darker Set - https://coolors.co/d388d3-0b5a84-9b1908-4b1d3f-053b06
+
+    --bright-lilac: #D388D3FF;
+    --blue-sapphire: #0B5A84FF;
+    --rufous: #9B1908FF;
+    --dark-purple: #4B1D3FFF;
+    --forest-green-traditional: #053B06FF;
+
+    Lighter Set
+
+ */
+
+/*
+ *      Global Styles
+ */
+ 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: #4B1D3FFF;
+}
+body {
+  margin: 0;
+}
+section {
+  padding: 0 5% 0 5%;
+}
+
+/*
+ *      Navigation Styles
+ */
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+nav li {
+  width: 100%;
+  margin: 0;
+  background-color: #053B06FF;
+}
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+}
+
+/*
+ *      Header Styles
+ */
+
+header {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-image: url("../media/pcb.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+header h1 {
+  margin: 0;
+  padding-top: 100px;
+}
+header a {
+  color: #9B1908FF;
+}
+
+/*
+ *      Profile Styles
+ */
+
+/*
+ *      Projects Styles
+ */
+
+/*
+ *      Work Experience Styles
+ */
+
+/*
+ *      Profile Styles
+ */
+
+/*
+ *      Education Styles
+ */
+
+/*
+ *      Certification Styles
+ */
+
+/*
+ *      Footer Styles
+ */

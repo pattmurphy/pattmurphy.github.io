@@ -2,38 +2,134 @@
 <html>
 
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>Patrick Murphy</title>
-    
-</head> 
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="css/main.css">
+  
+  <title>Patrick Murphy</title>
+</head>
 
 <body>
-    
-    <aside>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <!-- {% for page in site.pages %} {% if page.title %} -->
-            </ul>
-        </nav>
-    </aside>
-    
+  <aside>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+      </ul>
+    </nav>
+  </aside>
+  
+  <main>
     <header>
-        <h1><a href="https://www.pattmurphy.com">Patrick Murphy</a></h1>
+      
+      <h1><a href="https://www.pattmurphy.com">Patrick Murphy</a></h1>
+      <h2>Software Developer</h2>
+      
     </header>
-
-    <main>
     
-        <article>
-            
-        </article>
-
-    </main>
+    <section class="biography">
+      
+      <article id="about">
+        <p>Insert biography here.</p>
+      </article>
+      
+    </section>
     
+    <section id="projects">
+      
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/pattmurphy/CiscoHackathon">Cisco Hackathon - Teams and GitHub Integration Bot</a>
+          <p>A chatbot integrating GitHub and Cisco Teams’ APIs to automate the creation of chat rooms for your repositories, see collaborators for each repository, view your starred repositories, and search GitHub repositories.</p>
+        </li>
+        <li>
+          <a href="https://github.com/pattmurphy/FullStackHackathon">George Brown Hackathon - Star Wars Search</a>
+        </li>
+        <p>A website containing all the information you've ever wanted to know about Star Wars! Uses the Star Wars API with React to list information about Star Wars' films, people, planets, species, and more!</p>
+        <li>
+          <a href="https://github.com/pattmurphy/SocketIOChat">SocketIO Chat</a>
+          <p>Web chat application with a back end and admin functionality. Designed with React, Socket.io, and MongoDB.</p>
+        </li>
+        <li>
+          <a href="https://github.com/pattmurphy/PlantMonitor">Plant Monitoring featuring Arduino and Raspberry Pi</a>
+          <p>Hardware and software systems designed to monitor plants, wherever they may be. Monitors the temperature, humidity, and light of its environment. Uses an Arduino MEGA connected to a Raspberry Pi, Python, and Django.</p>
+        </li>
+        <li>
+          <a href="https://github.com/pattmurphy/AI2Assignments">Neural Network Collection</a>
+          <p>A collection of neural networks, one designed to classify the geographical origin of a recipe based on its ingredients and one to determine the type of floor based on a robot’s sensor readings. Designed with Python, NumPy, and Keras.</p>
+        </li>
+      </ul>
+      
+    </section>
+    
+    <section id="experience">
+      
+      <h2>Work Experience</h2>
+      
+      <h3>Software Developer</h3>
+      <p>George Brown College</p>
+      <p>
+        Plan and develop the Literacy Uplift mobile and web applications within a team.
+        These applications were designed to help people improve their literacy skills and 
+        allow teachers to add practice exercises and monitor their students' progress.
+      </p>
+      <ul>
+        <li>Collaborated with stakeholders and a team of five developers to create the Literacy Uplift web and mobile apps.</li>
+        <li>Managed the flow and logic of the web application, including designing and developing views and controllers using PHP, HTML, and CSS with the Laravel and Bootstrap frameworks.</li>
+        <li>Developed the web API, enabling mobile application access to database information with PHP, SQL, and JSON.</li>
+        <li>Maintained the status of the web application’s online development and testing server with Apache and Linux.</li>
+        <li>Architected the structures that were used to define the core functionality of the application’s quizzes using XML.</li>
+      </ul>
+      
+    </section>
+    
+    <section id="education">
+      
+      <h2>Education</h2>
+      
+      <h3>George Brown School of Computer Technology</h3>
+      <h4>Computer Programming and Analysis - 2019</h4>
+      <p>The Computer Programming and Analysis program involves learning the foundations of the web, and some of the most popular programming languages, including Python, JavaScript, C#, PHP, and Java. It also teaches object oriented principles, and how to put this all together to make large software projects in a team using agile methodologies. By the end, students are using frameworks like Angular and React to make fully functional applications fit for production. The program culminates in a year-long team project involving stakeholders where results must be delivered.</p>
+      <p>My highlights include:</p>
+      <ul>
+        <li>Hired by George Brown Research and Innovation division for the Literacy Uplift project.</li>
+        <li>Graduated on the Dean’s list with a 3.8 cumulative GPA and 4.0 final semester GPA.</li>
+      </ul>
+    
+    </section>
+    
+    <section id="certifications">
+      
+      <h2>Certifications</h2>
+      
+      <h3>George Brown Research</h3>
+      <p>Student Excellence in Research & Innovation 2019</p>
+      <p>Given to students hired by George Brown who demonstrated excellence in their research position.</p>
+
+      <h3>LinkedIn Learning</h3>
+      <p>Become a Programmer: Foundations</p>
+      <p>Recognition for completing this learning path, which includes data structures, algorithms, object oriented design, security practices, databases, and design patterns.</p>
+      
+    </section>
+    
+    <footer>
+      
+      <h2>Contact</h2>
+      
+      <ul>
+        <li><a href="#" target="_blank">LinkedIn</a></li>
+        <li><a href="#" target="_blank">Github</a></li>
+      </ul>
+      
+    </footer>
+  </main>
 </body>
 
 </html>
