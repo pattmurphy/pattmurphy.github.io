@@ -26,7 +26,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background-color: #4B1D3FFF;
+  background-color: lightgrey;
 }
 body {
   margin: 0;
@@ -69,22 +69,24 @@ nav li a {
 
 header {
   width: 100%;
-  height: 300px;
+  height: 400px;
   text-align: center;
-  background-image: url("../media/pcb.jpeg");
+  background-image: url("../media/abstract9.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 header h1 {
   margin: 0;
-  padding-top: 100px;
+  padding: 100px 0 40px 0;
+  font-size: 400%;
 }
 header h2 {
-  color: purple;
+  font-size: 200%;
+  color: rgba(255, 255, 255, 0.75);;
 }
 header a {
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 /*
