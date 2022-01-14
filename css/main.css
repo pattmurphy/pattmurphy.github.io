@@ -1,21 +1,21 @@
 /*      Colours
 
-    Darker Set - https://coolors.co/d388d3-0b5a84-9b1908-4b1d3f-053b06
+Darker Set - https://coolors.co/d388d3-0b5a84-9b1908-4b1d3f-053b06
 
-    --bright-lilac: #D388D3FF;
-    --blue-sapphire: #0B5A84FF;
-    --rufous: #9B1908FF;
-    --dark-purple: #4B1D3FFF;
-    --forest-green-traditional: #053B06FF;
+--bright-lilac: #D388D3FF;
+--blue-sapphire: #0B5A84FF;
+--rufous: #9B1908FF;
+--dark-purple: #4B1D3FFF;
+--forest-green-traditional: #053B06FF;
 
-    Lighter Set
+Lighter Set
 
- */
+*/
 
 /*
- *      Global Styles
- */
- 
+*      Global Styles
+*/
+
 html {
   box-sizing: border-box;
 }
@@ -36,8 +36,8 @@ section {
 }
 
 /*
- *      Navigation Styles
- */
+*      Navigation Styles
+*/
 
 nav {
   padding-top: 2em;
@@ -64,14 +64,14 @@ nav li a {
 }
 
 /*
- *      Header Styles
- */
+*      Header Styles
+*/
 
 header {
   width: 100%;
   height: 400px;
   text-align: center;
-  background-image: url("../media/abstract9.jpeg");
+  background-image: url("../media/backgrounds/smoke.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,37 +90,45 @@ header a {
 }
 
 /*
- *      Profile Styles
- */
+*      Profile Styles
+*/
 
 #about {
   padding-top: 1em;
 }
 
 /*
- *      Projects Styles
- */
+*      Projects Styles
+*/
 
 #projects {
   padding-top: 1em;
 }
 
 /*
- *      Work Experience Styles
- */
+*      Work Experience Styles
+*/
+
+#experience {
+  padding-top: 1em;
+}
 
 /*
- *      Profile Styles
- */
+*      Education Styles
+*/
+
+#education {
+  padding-top: 1em;
+}
 
 /*
- *      Education Styles
- */
+*      Certification Styles
+*/
+
+#certifications {
+  padding-top: 1em;
+}
 
 /*
- *      Certification Styles
- */
-
-/*
- *      Footer Styles
- */
+*      Footer Styles
+*/
