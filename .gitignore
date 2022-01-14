@@ -1,7 +1,4 @@
-.vscode
+.*
 cgi-bin
 wp-cli.yml
-.well-known
-.htaccess
-.gitignore
 media
