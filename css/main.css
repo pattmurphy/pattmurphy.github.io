@@ -130,5 +130,19 @@ header a {
 }
 
 /*
+*      Links Styles
+*/
+
+#links {
+  padding-top: 1em;;
+}
+
+#links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
 *      Footer Styles
 */
