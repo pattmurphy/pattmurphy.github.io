@@ -8,10 +8,6 @@ Darker Set - https://coolors.co/d388d3-0b5a84-9b1908-4b1d3f-053b06
 --dark-purple: #4B1D3FFF;
 --forest-green-traditional: #053B06FF;
 
-Lighter Set
-
-*/
-
 /*
 *      Global Styles
 */
@@ -33,6 +29,17 @@ body {
 }
 section {
   padding: 0 5% 0 5%;
+}
+h2 {
+  font-size: 200%;
+  text-align: center;
+}
+h3 {
+  font-size: 140%;
+}
+h4 {
+  font-size: 100%;
+  margin: 0;
 }
 
 /*
@@ -83,7 +90,8 @@ header h1 {
 }
 header h2 {
   font-size: 200%;
-  color: rgba(255, 255, 255, 0.75);;
+  color: rgba(255, 255, 255, 0.75);
+  padding-bottom: 1em;
 }
 header a {
   color: rgba(255, 255, 255, 0.75);
@@ -104,6 +112,11 @@ header a {
 #projects {
   padding-top: 1em;
 }
+#projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 
 /*
 *      Work Experience Styles
@@ -111,6 +124,9 @@ header a {
 
 #experience {
   padding-top: 1em;
+}
+#experience ul {
+  padding-left: 2%; 
 }
 
 /*
@@ -134,7 +150,8 @@ header a {
 */
 
 #links {
-  padding-top: 1em;;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 #links ul {
